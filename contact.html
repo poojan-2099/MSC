@@ -23,17 +23,34 @@
     <link rel="stylesheet" href="css/slicknav.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "cNq4Sy9x91y17LkXA",
+          });
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+          document.getElementById('contactForm').addEventListener('submit', function(event) {
+              event.preventDefault();
+              // these IDs from the previous steps
+              emailjs.sendForm('service_p63zgac', 'template_1varwco', this)
+                  .then(() => {
+                      alert("Thank you! We will reach back to you soon.");
+                  }, (error) => {
+                      console.log('FAILED...', error);
+                  });
+          });
+      }
+  </script>
   </head>
 
   <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
     <!-- header-start -->
     <header>
       <div class="header-area">
@@ -122,8 +139,7 @@
           <div class="col-lg-8">
             <form
               class="form-contact contact_form"
-              action="contact_process.php"
-              method="POST"
+              
               id="contactForm"
               novalidate="novalidate"
             >
@@ -182,6 +198,7 @@
                   </div>
                 </div>
               </div>
+              <input type="hidden" name="_captcha" value="false">
               <div class="form-group mt-3">
                 <button
                   type="submit"
@@ -266,6 +283,7 @@
                       required
                     />
                     <button type="submit"><i class="ti-arrow-right"></i></button>
+                    
                   </form>
               </div>
             </div>
@@ -342,11 +360,11 @@
 </script> -->
 
     <!--contact js-->
-    <script src="js/contact.js"></script>
+    <!-- <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+    <script src="js/mail-script.js"></script> -->
 
     <script src="js/main.js"></script>
   </body>
