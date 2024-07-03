@@ -332,6 +332,18 @@
     </footer>
     <!-- footer-end -->
 
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent the default form submission
+          
+          // Clear input fields
+          document.getElementById('name').value = '';
+          document.getElementById('email').value = '';
+          document.getElementById('subject').value = '';
+          document.getElementById('message').value = '';
+      });
+  </script>
+
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -351,13 +363,6 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
 
-
-    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-   (function(){
-       emailjs.init("YOUR_USER_ID");
-   })();
-</script> -->
 
     <!--contact js-->
     <!-- <script src="js/contact.js"></script>
