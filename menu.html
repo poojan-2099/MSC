@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/slicknav.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
 
   <body>
@@ -52,19 +53,6 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="service.html">Services</a></li>
                         <li><a href="menu.html">menu</a></li>
-                        <!-- <li>
-                          <a href="#">blog <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="single-blog.html">single-blog</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">pages <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="elements.html">elements</a></li>
-                          </ul>
-                        </li>-->
                         <li><a href="gallery.html">gallery</a></li>
                         <li><a href="contact.html">Contact</a></li> 
                       </ul>
@@ -107,7 +95,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
-            <div class="section_title mb-70">
+            <div class="section_title">
               <h3>Popular Orders</h3>
               <p>
                 Our menu features a diverse array of dishes that cater to all tastes and occasions. From flavorful appetizers like crispy samosas and
@@ -118,122 +106,303 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="single_order">
-              <div class="order_thumb">
-                <img src="img/order/order-1.png" alt="" />
-                <div class="order_prise">
-                  <span>10.00</span>
-                </div>
-              </div>
-              <div class="order_info">
-                <h3><a href="#">Weastern Set Meal 01</a></h3>
-                <p>
-                  Chicken Fried Rice | Crispy Chicken fry <br />
-                  Weastern Pickle | Mixed Vegetable <br />
-                  Soft Drinks
-                </p>
-                <a href="#" class="boxed_btn">Order Now!</a>
-              </div>
+        <div class="container mt-5">
+          <h2 class="mb-4 text-center">Our Menu</h2>
+          <div class="row">
+            <!-- Vegetarian Dishes -->
+            <div class="col-md-4">
+              <h3 class="mb-4">Vegetarian Dishes</h3>
+              <ul class="list-group">
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/paneerTikka.jpeg" class="img-thumbnail mr-3" alt="Paneer Tikka" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Paneer Tikka</h5>
+                      <p>Grilled paneer cubes marinated in spices</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/Chana.jpg" class="img-thumbnail mr-3" alt="Chole Bhature" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Chole Bhature</h5>
+                      <p>Spicy chickpeas with deep-fried bread</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/VegBiryani.jpg" class="img-thumbnail mr-3" alt="Vegetable Biryani" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Vegetable Biryani</h5>
+                      <p>Flavorful rice with mixed vegetables</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/SaagPaneer.jpeg" class="img-thumbnail mr-3" alt="Palak Paneer" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Saag Paneer</h5>
+                      <p>Spinach and paneer curry</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/dalrice.jpg" class="img-thumbnail mr-3" alt="Aloo Gobi" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Dal Rice</h5>
+                      <p>A comforting blend of lentils and rice, seasoned with aromatic spices</p>
+                    </div>
+                  </div>
+                </li> -->
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/dalMakhani.jpeg" class="img-thumbnail mr-3" alt="Dal Makhani" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Dal Makhani</h5>
+                      <p>Black lentils cooked with butter and cream</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/Baingan-Bharta.png" class="img-thumbnail mr-3" alt="Baingan Bharta" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Baingan Bharta</h5>
+                      <p>Smoky mashed eggplant curry</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/bhidni.jpg" class="img-thumbnail mr-3" alt="Bhindi Masala" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Bhindi Masala</h5>
+                      <p>Okra cooked with spices</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/ButterPaneer.jpg" class="img-thumbnail mr-3" alt="Paneer Butter Masala" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Paneer Butter Masala</h5>
+                      <p>Creamy paneer curry with butter</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInLeft">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/vegKorma.jpeg" class="img-thumbnail mr-3" alt="Vegetable Korma" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Vegetable Korma</h5>
+                      <p>Mixed vegetables in a creamy sauce</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_order">
-              <div class="order_thumb">
-                <img src="img/order/order-2.png" alt="" />
-                <div class="order_prise">
-                  <span>10.00</span>
-                </div>
-              </div>
-              <div class="order_info">
-                <h3><a href="#">Weastern Set Meal 02</a></h3>
-                <p>
-                  Chicken Fried Rice | Crispy Chicken fry <br />
-                  Weastern Pickle | Mixed Vegetable <br />
-                  Soft Drinks
-                </p>
-                <a href="#" class="boxed_btn">Order Now!</a>
-              </div>
+        
+            <!-- Non-Vegetarian Dishes -->
+            <div class="col-md-4">
+              <h3 class="mb-4">Non-Vegetarian Dishes</h3>
+              <ul class="list-group">
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/tandoori chicken.jpg" class="img-thumbnail mr-3" alt="Chicken Tikka" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Chicken Tikka</h5>
+                      <p>Grilled chicken marinated in spices</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/ButterChicken.jpg" class="img-thumbnail mr-3" alt="Butter Chicken" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Butter Chicken</h5>
+                      <p>Chicken in a creamy tomato sauce</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/GoatCurry.jpg" class="img-thumbnail mr-3" alt="Mutton Curry" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Mutton Curry</h5>
+                      <p>Spicy and flavorful mutton curry</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/fishpakora.jpg" class="img-thumbnail mr-3" alt="Fish Curry" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Fish Pakora</h5>
+                      <p>crispy fried fish marinated in a spiced chickpea flour batter</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/ChickenBiryani.jpg" class="img-thumbnail mr-3" alt="Chicken Biryani" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Chicken Biryani</h5>
+                      <p>Spicy rice with chicken</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/nonveg-6.png" class="img-thumbnail mr-3" alt="Lamb Vindaloo" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Lamb Vindaloo</h5>
+                      <p>Spicy lamb curry with potatoes</p>
+                    </div>
+                  </div>
+                </li> -->
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/GoatCurry.jpg" class="img-thumbnail mr-3" alt="Goat Curry" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Goat Curry</h5>
+                      <p>Rich and spicy goat curry</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/nonveg-8.png" class="img-thumbnail mr-3" alt="Prawn Masala" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Prawn Masala</h5>
+                      <p>Prawns cooked in a spicy tomato sauce</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/nonveg-9.png" class="img-thumbnail mr-3" alt="Tandoori Chicken" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Tandoori Chicken</h5>
+                      <p>Chicken marinated in yogurt and spices, cooked in a tandoor</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInRight">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/nonveg-10.png" class="img-thumbnail mr-3" alt="Kebab Platter" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Kebab Platter</h5>
+                      <p>Assorted kebabs served with chutney</p>
+                    </div>
+                  </div>
+                </li> -->
+              </ul>
             </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_order">
-              <div class="order_thumb">
-                <img src="img/order/order-3.png" alt="" />
-                <div class="order_prise">
-                  <span>10.00</span>
-                </div>
-              </div>
-              <div class="order_info">
-                <h3><a href="#">Weastern Set Meal 03</a></h3>
-                <p>
-                  Chicken Fried Rice | Crispy Chicken fry <br />
-                  Weastern Pickle | Mixed Vegetable <br />
-                  Soft Drinks
-                </p>
-                <a href="#" class="boxed_btn">Order Now!</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_order">
-              <div class="order_thumb">
-                <img src="img/order/order-4.png" alt="" />
-                <div class="order_prise">
-                  <span>10.00</span>
-                </div>
-              </div>
-              <div class="order_info">
-                <h3><a href="#">Weastern Set Meal 01</a></h3>
-                <p>
-                  Chicken Fried Rice | Crispy Chicken fry <br />
-                  Weastern Pickle | Mixed Vegetable <br />
-                  Soft Drinks
-                </p>
-                <a href="#" class="boxed_btn">Order Now!</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_order">
-              <div class="order_thumb">
-                <img src="img/order/order-5.png" alt="" />
-                <div class="order_prise">
-                  <span>10.00</span>
-                </div>
-              </div>
-              <div class="order_info">
-                <h3><a href="#">Weastern Set Meal 02</a></h3>
-                <p>
-                  Chicken Fried Rice | Crispy Chicken fry <br />
-                  Weastern Pickle | Mixed Vegetable <br />
-                  Soft Drinks
-                </p>
-                <a href="#" class="boxed_btn">Order Now!</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_order">
-              <div class="order_thumb">
-                <img src="img/order/order-6.png" alt="" />
-                <div class="order_prise">
-                  <span>10.00</span>
-                </div>
-              </div>
-              <div class="order_info">
-                <h3><a href="#">Weastern Set Meal 03</a></h3>
-                <p>
-                  Chicken Fried Rice | Crispy Chicken fry <br />
-                  Weastern Pickle | Mixed Vegetable <br />
-                  Soft Drinks
-                </p>
-                <a href="#" class="boxed_btn">Order Now!</a>
-              </div>
+        
+            <!-- Drinks -->
+            <div class="col-md-4">
+              <h3 class="mb-4">Drinks</h3>
+              <ul class="list-group">
+                <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/mangolassi.jpeg" class="img-thumbnail mr-3" alt="Mango Lassi" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Mango Lassi</h5>
+                      <p>Refreshing yogurt drink with mango</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/Tea.jpg" class="img-thumbnail mr-3" alt="Masala Chai" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Masala Chai</h5>
+                      <p>Spiced Indian tea</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/lemonshik.jpeg" class="img-thumbnail mr-3" alt="Nimbu Pani" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Nimbu Shikanji</h5>
+                      <p>Lemonade with a hint of spices</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/drink-4.png" class="img-thumbnail mr-3" alt="Thandai" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Thandai</h5>
+                      <p>Cool almond-flavored milk drink</p>
+                    </div>
+                  </div>
+                </li> -->
+                <!-- <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/drink-5.png" class="img-thumbnail mr-3" alt="Aam Panna" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Aam Panna</h5>
+                      <p>Raw mango drink</p>
+                    </div>
+                  </div>
+                </li> -->
+                <!-- <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/drink-6.png" class="img-thumbnail mr-3" alt="Jal Jeera" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Jal Jeera</h5>
+                      <p>Refreshing cumin-flavored drink</p>
+                    </div>
+                  </div>
+                </li> -->
+                <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/rosemilk.jpeg" class="img-thumbnail mr-3" alt="Rose Milk" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Rose Milk</h5>
+                      <p>Chilled milk with rose syrup</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/drink-8.png" class="img-thumbnail mr-3" alt="Coconut Water" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Coconut Water</h5>
+                      <p>Fresh coconut water</p>
+                    </div>
+                  </div>
+                </li> -->
+                <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/sugercanjuice.jpeg" class="img-thumbnail mr-3" alt="Sugarcane Juice" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Sugarcane Juice</h5>
+                      <p>Freshly extracted sugarcane juice</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item animate__animated animate__fadeInUp">
+                  <div class="d-flex justify-content-start align-items-center">
+                    <img src="img/order/saltlassi.jpeg" class="img-thumbnail mr-3" alt="Masala Buttermilk" style="width: 150px; height: 150px;">
+                    <div>
+                      <h5>Salt Lassi</h5>
+                      <p>Spiced buttermilk drink</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+        
+        
       </div>
     </div>
     <!-- order_area_end -->
