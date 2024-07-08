@@ -112,11 +112,19 @@
       </div>
       <div class="container mt-5">
         <h2 class="mb-4 text-center">Our Menu</h2>
-        <div class="text-center mb-4">
-          <button class="btn btn-primary mr-2" onclick="showSection('veg-menu')">Vegetarian Dishes</button>
-          <button class="btn btn-primary mr-2" onclick="showSection('nonveg-menu')">Non-Vegetarian Dishes</button>
-          <button class="btn btn-primary mr-2" onclick="showSection('drinks-menu')">Drinks</button>
-          <button class="btn btn-primary" onclick="showSection('snacks-menu')">Snacks</button>
+        <div class="row text-center mb-4">
+          <div class="col-6 col-md-3 mb-2">
+            <button class="btn btn-primary btn-block" onclick="showSection('veg-menu')">Vegetarian Dishes</button>
+          </div>
+          <div class="col-6 col-md-3 mb-2">
+            <button class="btn btn-primary btn-block" onclick="showSection('nonveg-menu')">Non-Vegetarian Dishes</button>
+          </div>
+          <div class="col-6 col-md-3 mb-2">
+            <button class="btn btn-primary btn-block" onclick="showSection('drinks-menu')">Drinks</button>
+          </div>
+          <div class="col-6 col-md-3 mb-2">
+            <button class="btn btn-primary btn-block" onclick="showSection('snacks-menu')">Snacks</button>
+          </div>
         </div>
 
         <div id="veg-menu" class="menu-section">
