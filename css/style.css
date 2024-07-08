@@ -1843,6 +1843,9 @@ h3 {
 .breadcam_bg_2{
   background-image: url(../img/banner/common-2.jpeg);
 }
+.breadcam_bg_3{
+  background-image: url(../img/order/spices.jpg);
+}
 
 /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */
 .breadcam_area {
@@ -3737,7 +3740,7 @@ h6 {
 .single-blog .tag {
   text-align: left;
   display: inline-block;
-  float: left;
+  /* float: left; */
   font-size: 13px;
   font-weight: 300;
   margin-right: 22px;
