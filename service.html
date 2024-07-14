@@ -22,6 +22,42 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/slicknav.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+      
+      .card-img-top {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      .card-body h4 {
+        font-size: 1.5rem;
+      }
+      
+      .card-body p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .btn-primary {
+        background-color: #261f4d;
+        border-color: #261f4d;
+      }
+      
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+      }
+    </style>
+    
   </head>
 
   <body>
@@ -83,123 +119,67 @@
     </div>
     <!-- breadcam_area_end -->
 
-    <!-- service_area-start -->
-    <div class="service_area">
-      <div class="container">
+<!-- service_area-start -->
+
+  <div class="container" style="margin-top: 40px;">
+    <div class="row">
+      <div class="col-lg-12 cater-list-div">
         <div class="row">
-          <div class="col-xl-12">
-            <div class="section_title mb-60 text-center">
-              <p>
-                At Malkit's Sweets and Catering, we offer a range of catering
-                services to make your events memorable. Discover our exceptional catering and traditional Indian sweet
-                services. We provide catering for weddings, private events,
-                corporate events, and live food stations.
-              </p>
+          <div class="col-md-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/cater-img1.jpg" alt="Wedding Catering" title="Wedding Catering">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Wedding Catering</h4>
+                <p class="card-text">Our wedding catering services provide exquisite menus and beautiful presentations to make your big day unforgettable.</p>
+                <div class="mt-auto text-center">
+                  <a href="gallery.html" class="btn btn-primary">View more</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="single_service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".2s"
-            >
-              <div class="service_icon">
-                <i class="flaticon-cake"></i>
+          <div class="col-md-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/cater-img4.jpg" alt="Catering On Demand" title="Catering On Demand">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Catering On Demand</h4>
+                <p class="card-text">We provide catering on demand for any occasion. Our flexible services ensure that you get the food you need when you need it.</p>
+                <div class="mt-auto text-center">
+                  <a href="gallery.html" class="btn btn-primary">View more</a>
+                </div>
               </div>
-              <h4>Wedding Catering</h4>
-              <p>
-                Our wedding catering services provide exquisite menus and
-                beautiful presentations to make your big day unforgettable.
-              </p>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="single_service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".4s"
-            >
-              <div class="service_icon">
-                <i class="flaticon-calendar"></i>
+          <div class="col-md-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/cater-img5.jpg" alt="Traditional Indian Sweets" title="Traditional Indian Sweets">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Traditional Indian Sweets</h4>
+                <p class="card-text">Indulge in our selection of traditional Indian sweets. We offer a variety of desserts made with the finest ingredients.</p>
+                <div class="mt-auto text-center">
+                  <a href="gallery.html" class="btn btn-primary">View more</a>
+                </div>
               </div>
-              <h4>Private Event Catering</h4>
-              <p>
-                We cater to all types of events, providing customized menus and
-                exceptional service to ensure your event is a success.
-              </p>
             </div>
           </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="single_service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".5s"
-            >
-              <div class="service_icon">
-                <i class="flaticon-businessman"></i>
+          <div class="col-md-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/cater-img6.jpg" alt="Live Food Stations" title="Live Food Stations">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Live Food Stations</h4>
+                <p class="card-text">Experience our live food stations with options like Desi Ghee Jalebi, Chaats, Dosa, and more. Our live cooking adds a unique touch to your events.</p>
+                <div class="mt-auto text-center">
+                  <a href="gallery.html" class="btn btn-primary">View more</a>
+                </div>
               </div>
-              <h4>Corporate Catering</h4>
-              <p>
-                Our corporate catering services offer professional setups and a
-                wide range of menu options to meet your business needs.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="single_service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".6s"
-            >
-              <div class="service_icon">
-                <i class="flaticon-running-man"></i>
-              </div>
-              <h4>Catering On Demand</h4>
-              <p>
-                We provide catering on demand for any occasion. Our flexible
-                services ensure that you get the food you need when you need it.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="single_service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".7s"
-            >
-              <div class="service_icon">
-                <i class="flaticon-sweets"></i>
-              </div>
-              <h4>Traditional Indian Sweets</h4>
-              <p>
-                Indulge in our selection of traditional Indian sweets. We offer
-                a variety of desserts made with the finest ingredients.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div
-              class="single_service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".8s"
-            >
-              <div class="service_icon">
-                <i class="flaticon-chef"></i>
-              </div>
-              <h4>Live Food Stations</h4>
-              <p>
-                Experience our live food stations with options like Desi Ghee
-                Jalebi, Chaats, Dosa, and more. Our live cooking adds a unique
-                touch to your events.
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- service_area-end -->
+  </div>
+<!-- service_area-end -->
+
+
 
     <footer class="footer_area footer-bg zigzag_bg_1">
       <div class="footer-top">
@@ -208,22 +188,17 @@
             <div class="col-xl-2 col-md-6 col-lg-2">
               <div class="footer_widget">
                 <h3 class="heading">Top Products</h3>
-                <ul>
-                  <li><a href="#">Catering Services</a></li>
-                  <li><a href="#">Event Planning</a></li>
-                  <li><a href="#">Custom Menus</a></li>
-                  <li><a href="#">Delivery Services</a></li>
-                </ul>
+                  
               </div>
             </div>
             <div class="col-xl-2 col-md-6 col-lg-2">
               <div class="footer_widget">
                 <h3 class="heading">Quick Links</h3>
                 <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Menu</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="menu.html">Our Menu</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="#">Example Contract for catering</a></li>
                 </ul>
               </div>
             </div>
