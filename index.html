@@ -28,33 +28,40 @@
   </head>
   <style>
     .slider_contant h3 {
-    font-size: 2.5rem;
-    color: #fff;
-    font-weight: bold;
-    margin-top: 20px;
-    display: inline-block;
-    position: relative;
-    white-space: nowrap;
-  }
+      font-size: 2.5rem;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 20px;
+      display: inline-block;
+      position: relative;
+      white-space: nowrap;
+    }
 
-  .falling-text span {
-    display: inline-block;
-    animation: fall 0.5s ease forwards;
-    opacity: 0;
-    position: relative;
-  }
-
-  @keyframes fall {
-    0% {
+    .falling-text span {
+      display: inline-block;
+      animation: fall 0.5s ease forwards;
       opacity: 0;
-      transform: translateY(-50px);
+      position: relative;
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
+
+    @keyframes fall {
+      0% {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+    .slider_contant h3 {
+      white-space: normal;
+      word-break: break-word;
+      font-size: 1.8rem;
     }
   }
-  
   </style>
 
   <body>
@@ -231,74 +238,39 @@
     </div>
     <!-- video_area_end -->
 
-    <!-- testmonial_area_start -->
-    <div class="chefs_gallery_area banner-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="section_title white mb-60">
-              <h3>Meet Our Chefs</h3>
-              <p>
-                Discover the talents of our amazing chefs as they prepare
-                traditional Indian dishes and share their culinary secrets.
-              </p>
-            </div>
+     <!-- Meet Our Chef Section -->
+  <div class="chef_intro_area banner-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section_title white mb-60">
+            <h3>Meet Our Masterchef</h3>
+            <p>
+              Discover the expertise of Mr. Malkit, our Masterchef with over 30 years of experience in the culinary industry.
+              His unparalleled skills and deep knowledge of traditional Indian cuisine have made him a renowned figure in the catering world.
+            </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="chefs_gallery_active owl-carousel">
-              <div class="single_chef d-flex">
-                <div class="chef_thumb">
-                  <img src="img/RJ.jpeg" alt="Chef John" />
-                </div>
-                <div class="chef_info">
-                  <h3>Chef John Doe</h3>
-                  <span>Head Chef</span>
-                  <p>
-                    Chef John has over 20 years of experience in preparing
-                    traditional Indian cuisine. Watch him create magic in the
-                    kitchen.
-                  </p>
-                  <div class="video_thumb">
-                    <a
-                      href="https://www.instagram.com/garmagaramjalebi/reel/C4oJgqSPC7d/"
-                      target="_blank"
-                    >
-                      <img src="img/RJ.jpeg" alt="Cooking Video 1" />
-                    </a>
-                  </div>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="single_chef d-flex">
+              <h3>Mr. Malkit</h3>
+              <span>Masterchef</span>
+              <p>
+                With over 30 years of professional experience, Mr. Malkit is a master of culinary arts, known for his expertise in traditional Indian cuisine. His dedication to quality and innovation has earned him a reputation as one of the top chefs in the industry.
+              </p>
+              <div class="video_thumb">
+                <a href="https://www.instagram.com/garmagaramjalebi/reel/C4oJgqSPC7d/" target="_blank">
+                  <img src="img/about/chefa.jpg" alt="Cooking Video" />
+                </a>
               </div>
-              <div class="single_chef d-flex">
-                <div class="chef_thumb">
-                  <img src="img/chefs/chef2.jpg" alt="Chef Jane" />
-                </div>
-                <div class="chef_info">
-                  <h3>Chef Jane Smith</h3>
-                  <span>Sous Chef</span>
-                  <p>
-                    Chef Jane is known for her exquisite dessert creations.
-                    Watch her make mouth-watering sweets.
-                  </p>
-                  <div class="video_thumb">
-                    <a
-                      href="https://www.youtube.com/watch?v=example2"
-                      target="_blank"
-                    >
-                      <img src="img/videos/video2.jpg" alt="Cooking Video 2" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- Add more chef entries as needed -->
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- testmonial_area_end -->
+  </div>
 
     <!-- footer-start -->
     <footer class="footer_area footer-bg zigzag_bg_1">
@@ -334,14 +306,7 @@
                   18110 Parthenia St, Northridge, California 91324<br />
                   Phone: <a href="tel:+18184071498">(818) 407-1498</a>
                 </p>
-                <form action="#">
-                  <input
-                    type="email"
-                    placeholder="Your email address"
-                    required
-                  />
-                  <button type="submit"><i class="ti-arrow-right"></i></button>
-                </form>
+
               </div>
             </div>
             <div class="col-xl-4 col-md-12 col-lg-4">
@@ -401,18 +366,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const text = document.querySelector('.falling-text');
-      const textContent = text.textContent;
-      text.innerHTML = '';
+      document.addEventListener('DOMContentLoaded', function () {
+        const text = document.querySelector('.falling-text');
+        const textContent = text.textContent;
+        text.innerHTML = '';
 
-      textContent.split('').forEach((char, index) => {
-        const span = document.createElement('span');
-        span.textContent = char;
-        span.style.animationDelay = `${index * 0.1}s`;
-        text.appendChild(span);
+        textContent.split('').forEach((char, index) => {
+          const span = document.createElement('span');
+          span.textContent = char;
+          span.style.animationDelay = `${index * 0.1}s`;
+          text.appendChild(span);
+        });
       });
-    });
     </script>
 
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
