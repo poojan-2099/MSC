@@ -26,15 +26,64 @@
   <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+<style>
+  .menu-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #a52a2a;
+  text-align: center;
+}
+
+.menu-section img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  object-fit: cover;
+  height: 240px;
+}
+
+.menu-section .menu-items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-section .menu-items p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.menu-section .trans-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu-section .btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-section .btn-primary {
+  background-color: #5214b5;
+  border-color: #5214b5;
+}
+
+.menu-section .btn-primary:hover {
+  background-color: #800000;
+  border-color: #800000;
+}
+</style>
 
 <body>
-  <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
 
   <!-- header-start -->
   <header>
@@ -123,7 +172,7 @@
             <button class="btn btn-primary btn-block" onclick="showSection('drinks-menu')">Drinks</button>
           </div>
           <div class="col-6 col-md-3 mb-2">
-            <button class="btn btn-primary btn-block" onclick="showSection('snacks-menu')">Snacks</button>
+            <button class="btn btn-primary btn-block" onclick="showSection('snacks-menu')">Appetizers</button>
           </div>
         </div>
 
@@ -459,6 +508,304 @@
     </div>
   </div>
     <!-- order_area_end -->
+     <!-- Menu-area -->
+     <div class="container-fluid">
+      <div class="padding-top-bottom">
+          
+          <!-- Row 1: Appetizers and Bread -->
+          <div class="row align-items-stretch">
+            <!-- Appetizers -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-section">
+                    <div class="container pdlr">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <h1>Appetizers</h1>
+                                <div class="img-container">
+                                    <img src="img/order/samosa.jpeg" class="img-fluid" alt="Appetizers">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <div class="trans-bg menu-container">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <ul class="menu-items">
+                                                <li><p>Vegetable Samosa</p></li>
+                                                <li><p>Vegetable Pakora</p></li>
+                                             
+                                                <li><p>Pani Puri (Live)</p></li>
+                                                <li><p>Aloo Tikki</p></li>
+                                                <li><p>Hara Bhara Kabab</p></li>
+                                                <li><p>Dahi Kabab</p></li>
+                                              
+                                                <li><p>Bhel Puri</p></li>
+                                                <li><p>Delhi Chaat</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <ul class="menu-items">
+                                                <li><p>Dahi Balle</p></li>
+                                                <li><p>Veg Sheesh Kebob</p></li>
+                                                <li><p>Veg. Spring Roll</p></li>
+                                              
+                                                <li><p>Paneer Pakora </p></li>
+                                                <li><p>Chilli Pakora</p></li>
+                                              
+                                                <li><p>Aloo Bonda</p></li>
+                                                <li><p>Veg. Cutlets</p></li>
+                                                <li><p>Raj Kachori</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Breads -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-section">
+                    <div class="container pdlr">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <h1>Breads</h1>
+                                <div class="img-container">
+                                    <img src="img/order/naan.jpg" alt="Breads">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <div class="trans-bg">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                            <ul class="menu-items">
+                                                <li><p>Plain Naan</p></li>
+                                                <li><p>Garlic Naan</p></li>
+                                                <li><p>Cheese Naan</p></li>
+                                                <li><p>Chilli Naan</p></li>
+                                                <li><p>Tandoori Roti</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                            <ul class="menu-items">
+                                                <li><p>Plain Paratha</p></li>
+                                                <li><p>Lacchha Paratha</p></li>
+                                                <li><p>Mix Paratha</p></li>
+                                                <li><p>MalabarParatha</p></li>
+                                                <li><p>Aloo Paratha</p></li>
+                                                <li><p>Achari Paratha</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                            <ul class="menu-items">
+                                                <li><p>Bhatura</p></li>
+                                                <li><p>Puri</p></li>
+                                                <li><p>Onion Kulcha</p></li>
+                                                <li><p>Paneer Kulcha</p></li>
+                                                <li><p>Makki roti</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          
+          <!-- Row 2: Main Course and Chicken -->
+          <div class="row align-items-center">
+            <!-- Main Course and Chicken -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="menu-section">
+                    <div class="container pdlr">
+                        <!-- Main Course -->
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <h1>Main Course</h1>
+                                <div class="img-container">
+                                    <img src="/img/order/maincourse.jpg" alt="Main Course">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <div class="trans-bg">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <ul class="menu-items">
+                                                <li><p>Paneer Tikka Masala</p></li>
+                                                <li><p>Paneer Butter Masala</p></li>
+                                                <li><p>Paneer Burji</p></li>
+                                                <li><p>Saag Paneer</p></li>
+                                                <li><p>Kadhai Paneer</p></li>
+                                                <li><p>Paneer methi mattar</p></li>
+                                                <li><p>Methi Mattar Malai</p></li>
+                                                <li><p>Methi muttar Mushroom</p></li>
+                                                <li><p>Paneer Jalfrezi</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6">
+                                            <ul class="menu-items">
+                                                <li><p>Malai Kofta</p></li>
+                                                <li><p>Cheese Kofta</p></li>
+                                                <li><p>Tava Sabji (Special)</p></li>
+                                                <li><p>Kadai Vegetable</p></li>
+                                                <li><p>Chana Masala</p></li>
+                                                <li><p>Aloo Gobi</p></li>
+                                                <li><p>Bhindi Tadka</p></li>
+                                                <li><p>Navratna Korma</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                            <ul class="menu-items">
+                                                <li><p>Aloo Jeera Masala</p></li>
+                                                <li><p>Muttar Methi corn</p></li>
+                                                <li><p>Tava Eggplant</p></li>
+                                                <li><p>Daal Makhani</p></li>
+                                                <li><p>Moong Daal</p></li>
+                                                <li><p>Yellow Daal</p></li>
+                                                <li><p>Panchratni Daal</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Chicken -->
+                        <div class="row align-items-center mt-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <h1>Chicken</h1>
+                                <div class="img-container">
+                                    <img src="img/order/ButterChicken.jpg" alt="Chicken">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <div class="trans-bg">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <ul class="menu-items">
+                                                <li><p>Chicken Curry</p></li>
+                                                <li><p>Chicken Vindaloo</p></li>
+                                                <li><p>Chicken Karahi</p></li>
+                                                <li><p>Butter Chicken</p></li>
+                                                <li><p>Malai Chicken</p></li>
+                                                <li><p>Lamb Curry</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <ul class="menu-items">
+                                                <li><p>Achari Chicken</p></li>
+                                                <li><p>Chicken Jalfrezi</p></li>
+                                                <li><p>Dhaba Chicken Curry</p></li>
+                                                <li><p>Dhaba Chicken Curry (Bone in)</p></li>
+                                                <li><p>Lamb Jalfrezi</p></li>
+                                                <li><p>Goat Curry with Bone</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          
+          <!-- Row 3: Lamb and Dessert -->
+          <div class="row align-items-center">
+              <!-- Lamb -->
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="menu-section">
+                      <div class="container pdlr">
+                          <div class="row align-items-center">
+                              <div class="col-lg-4 col-md-4 col-sm-12">
+                                  <h1>Drinks</h1>
+                                  <div class="img-container">
+                                      <img src="img/order/mangolassi.jpeg" alt="Drinks">
+                                  </div>
+                              </div>
+                              <div class="col-lg-8 col-md-8 col-sm-12">
+                                  <div class="trans-bg">
+                                      <div class="row">
+                                          <div class="col-lg-6 col-md-6 col-sm-6">
+                                              <ul class="menu-items">
+                                                  <li><p>Mango lassi</p></li>
+                                                  <li><p>Sweet lassi</p></li>
+                                                  <li><p>Salt lassi</p></li>
+                                                  <li><p>Pista Lassi</p></li>
+                                                  <li><p>Aam Panna</p></li>
+                                              </ul>
+                                          </div>
+                                          <div class="col-lg-6 col-md-6 col-sm-6">
+                                              <ul class="menu-items">
+                                                  <li><p>Rose Milk</p></li>
+                                                  <li><p>Lemonade</p></li>
+                                                  <li><p>Mocktail</p></li>
+                                                  <li><p>Tea</p></li>
+                                                  <li><p>Coffee</p></li>
+                                                  
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Dessert -->
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="menu-section">
+                      <div class="container pdlr">
+                          <div class="row align-items-center">
+                              <div class="col-lg-4 col-md-4 col-sm-12">
+                                  <h1>Dessert</h1>
+                                  <div class="img-container">
+                                      <img src="img/order/laddoo.jpg" alt="Dessert">
+                                  </div>
+                              </div>
+                              <div class="col-lg-8 col-md-8 col-sm-12">
+                                  <div class="trans-bg">
+                                      <div class="row">
+                                          <div class="col-lg-6 col-md-6 col-sm-6">
+                                              <ul class="menu-items">
+                                                  <li><p>Gulab Jamun</p></li>
+                                                  <li><p>Ras Malai</p></li>
+                                                  <li><p>Shahi Rice Pudding</p></li>
+                                                  <li><p>Kulfi</p></li>
+                                                  <li><p>Gajar Halwa</p></li>
+                                                  <li><p>Moong Daal Halwa</p></li>
+                                              </ul>
+                                          </div>
+                                          <div class="col-lg-6 col-md-6 col-sm-6">
+                                              <ul class="menu-items">
+                                                  <li><p>Rabdi</p></li>
+                                                  <li><p>Jalebi</p></li>
+                                                  <li><p>Motichur Ladoo</p></li>
+                                                  <li><p>Exotic Fruit Station</p></li>
+                                                  <li><p>Chocolate Jalebi</p></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+  
+  
+    
+      <!-- Menu-area-end -->
 
     <footer class="footer_area footer-bg zigzag_bg_1">
       <div class="footer-top">
@@ -471,7 +818,6 @@
                   <li><a href="#">Catering Services</a></li>
                   <li><a href="#">Event Planning</a></li>
                   <li><a href="#">Custom Menus</a></li>
-                  <li><a href="#">Delivery Services</a></li>
                 </ul>
               </div>
             </div>
@@ -494,10 +840,6 @@
                   18110 Parthenia St, Northridge, California 91324<br />
                   Phone: <a href="tel:+18184071498">(818) 407-1498</a>
                 </p>
-                <form action="#">
-                  <input type="email" placeholder="Your email address" required />
-                  <button type="submit"><i class="ti-arrow-right"></i></button>
-                </form>
               </div>
             </div>
             <div class="col-xl-4 col-md-12 col-lg-4">
@@ -563,6 +905,9 @@
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw5H9If5CG-EnYcWuS-K2XnhBbA0sH1tY"></script>

@@ -22,8 +22,40 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/slicknav.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   </head>
+  <style>
+    .slider_contant h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .falling-text span {
+    display: inline-block;
+    animation: fall 0.5s ease forwards;
+    opacity: 0;
+    position: relative;
+  }
+
+  @keyframes fall {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  </style>
 
   <body>
     <!-- header-start -->
@@ -73,50 +105,22 @@
       </div>
     </header>
     <!-- header-end -->
-
+ 
     <!-- slider_area-start -->
     <div class="slider_area zigzag_bg_2">
       <div class="slider_sctive owl-carousel">
         <div class="single_slider slider_img_1">
           <div class="single_slider-iner">
             <div class="slider_contant text-center">
-              <h3>Catering Service.</h3>
-              <p>
-                Welcome to Malkit Sweets and Catering Services, your premier<br />
-                destination for authentic Indian cuisine on the West Coast.
-                With<br />
-                a passion for culinary excellence and a dedication to
-                quality,<br />
-                our experienced master chefs bring the rich and diverse
-                flavors<br />
-                of India to your table. From the spicy delights of Punjab to
-                the<br />
-                aromatic dishes of South India, we offer a wide array of<br />
-                mouthwatering options that cater to all tastes and preferences.
-              </p>
+              <h3 class="falling-text">Welcome to Malkit Sweets & Catering</h3>
             </div>
           </div>
         </div>
         <div class="single_slider slider_img_2">
           <div class="single_slider-iner">
             <div class="slider_contant text-center">
-              <h3>
-                Sweets<br />
-                Service.
-              </h3>
-              <p>
-                Our sweets are made with the finest ingredients,<br />
-                ensuring a taste that transports you straight to the heart of<br />
-                India. Our commitment to using fresh<br />
-                ingredients and traditional cooking techniques guarantees
-                that<br />
-                every sweet is a celebration of Indian heritage and<br />
-                hospitality. Trust us to make your next event truly special
-                with<br />
-                our exquisite menu, delectable sweets, and exceptional
-                service.<br />
-              </p>
-            </div>
+              <h3 class="falling-text">Welcome to Malkit Sweets & Catering</h3>
+            </div>     
           </div>
         </div>
       </div>
@@ -129,13 +133,26 @@
         <div class="row">
           <div class="col-xl-12">
             <div class="section_title mb-60">
-              <h3>Our Catering Services</h3>
               <p>
-                At Malkit's Sweets and Catering, we specialize in providing
-                top-notch catering services with a focus on traditional Indian
-                cuisine. Whether you are planning a wedding, a party, or need
-                catering on demand, we have the expertise to make your event
-                unforgettable.
+                Welcome to Malkit Sweets and Catering Services, your premier
+                destination for authentic Indian cuisine on the West Coast.
+                With
+                a passion for culinary excellence and a dedication to
+                quality,
+                our experienced master chefs bring the rich and diverse
+                flavors
+                of India to your table. From the spicy delights of Punjab to
+                the
+                aromatic dishes of South India, we offer a wide array of
+                mouthwatering options that cater to all tastes and preferences. Our sweets are made with the finest ingredients,
+                ensuring a taste that transports you straight to the heart of
+                India. Our commitment to using fresh
+                ingredients and traditional cooking techniques guarantees
+                that
+                every sweet is a celebration of Indian heritage and
+                hospitality. Trust us to make your next event truly special
+                with our exquisite menu, delectable sweets, and exceptional
+                service.
               </p>
             </div>
           </div>
@@ -295,7 +312,6 @@
                   <li><a href="#">Catering Services</a></li>
                   <li><a href="#">Event Planning</a></li>
                   <li><a href="#">Custom Menus</a></li>
-                  <li><a href="#">Delivery Services</a></li>
                 </ul>
               </div>
             </div>
@@ -385,22 +401,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
-      $(document).ready(function () {
-        $(".chefs_gallery_active").owlCarousel({
-          items: 1,
-          loop: true,
-          margin: 30,
-          nav: true,
-          autoplay: true,
-          autoplayTimeout: 5000,
-          autoplayHoverPause: true,
-          responsive: {
-            0: { items: 1 },
-            600: { items: 2 },
-            1000: { items: 3 },
-          },
-        });
+    document.addEventListener('DOMContentLoaded', function () {
+      const text = document.querySelector('.falling-text');
+      const textContent = text.textContent;
+      text.innerHTML = '';
+
+      textContent.split('').forEach((char, index) => {
+        const span = document.createElement('span');
+        span.textContent = char;
+        span.style.animationDelay = `${index * 0.1}s`;
+        text.appendChild(span);
       });
+    });
     </script>
 
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
