@@ -1113,7 +1113,7 @@ h3 {
   background-image: url(../img/banner/banner-1.jpeg);
 }
 .slider_img_2 {
-  background-image: url(../img/banner/banner-2.jpeg);
+  background-image: url(../img/about/aboutBanner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_banner.scss */
@@ -1189,12 +1189,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_video.scss */
 .video_bg {
-  background-image: url(../img/banner/banner-2.png);
+  background-image: url(../img/about/aboutBanner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_video.scss */
 .video_area {
-  height: 750px;
+  height: 640px;
   background-size: cover;
   background-position: center;
   display: table;
@@ -1835,13 +1835,13 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */
 .breadcam_bg_1 {
-  background-image: url(../img/banner/common.jpeg);
+  background-image: url(../img/banner/service_Banner.jpg);
 }
 .breadcam_bg_2{
   background-image: url(../img/banner/common-2.jpeg);
 }
 .breadcam_bg_3{
-  background-image: url(../img/order/spices.jpg);
+  background-image: url(../img/order/menu.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */

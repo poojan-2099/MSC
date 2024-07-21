@@ -1,363 +1,280 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Malkit's Sweets and Catering | Contact US</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Malkit's Sweets and Catering | Contact US</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
-    <!-- Place favicon.ico in the root directory -->
+  <!-- CSS here -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/gallery/logo_fill.png" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-      (function(){
-          emailjs.init({
-            publicKey: "cNq4Sy9x91y17LkXA",
-          });
-      })();
-    </script>
-    <script type="text/javascript">
-      window.onload = function() {
-          document.getElementById('contactForm').addEventListener('submit', function(event) {
-              event.preventDefault();
-              // these IDs from the previous steps
-              emailjs.sendForm('service_p63zgac', 'template_1varwco', this)
-                  .then(() => {
-                      alert("Thank you! We will reach back to you soon.");
-                  }, (error) => {
-                      console.log('FAILED...', error);
-                  });
-          });
-      }
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("cNq4Sy9x91y17LkXA");
+    })();
   </script>
-  </head>
-
-  <body>
-    <!-- header-start -->
-    <header>
-      <div class="header-area">
-        <div id="sticky-header" class="main-header-area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-10 col-lg-10">
-                <div class="main-menu d-none d-lg-block">
-                  <nav>
-                    <ul class="mein_menu_list" id="navigation">
-                        <div class="logo-img d-none d-lg-block">
-                          <a href="index.html">
-                            <img src="img/logo-Nav.png" style="height: 100px; width: 100px;" alt="" />
-                          </a>
-                        </div>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="menu.html">menu</a></li>
-                        <!-- <li>
-                          <a href="#">blog <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="single-blog.html">single-blog</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">pages <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="elements.html">elements</a></li>
-                          </ul>
-                        </li>-->
-                        <li><a href="gallery.html">gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li> 
-                      </ul>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                <div class="custom_order">
-                  <a href="contact.html" class="boxed_btn_white">Book Now!</a>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="mobile_menu d-block d-lg-none"></div>
-              </div>
-              <div class="logo-img-small d-sm-block d-md-block d-lg-none">
-                <a href="index.html">
-                  <img src="img/logo.png" alt="" />
-                </a>
+</head>
+<body>
+  <!-- header-start -->
+  <header>
+    <div class="header-area">
+      <div id="sticky-header" class="main-header-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-10 col-lg-10">
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul class="mein_menu_list" id="navigation">
+                    <div class="logo-img d-none d-lg-block">
+                      <a href="index.html">
+                        <img src="img/logo-Nav.png" style="height: 100px; width: 100px;" alt="" />
+                      </a>
+                    </div>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                  </ul>
+                </nav>
               </div>
             </div>
+            <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+              <div class="custom_order">
+                <a href="contact.html" class="boxed_btn_white">Book Now!</a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+            <div class="logo-img-small d-sm-block d-md-block d-lg-none">
+              <a href="index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-    </header>
-    <!-- header-end -->
-
-    <!-- breadcam_area_start -->
-    <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
-      <div class="breadcam_inner">
-        <div class="breadcam_text">
-          <h3>Contact Us</h3>
         </div>
       </div>
     </div>
+  </header>
+  <!-- header-end -->
 
-    <!-- breadcam_area_end -->
+  <!-- breadcam_area_start -->
+  <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
+    <div class="breadcam_inner">
+      <div class="breadcam_text">
+        <h3>Contact Us</h3>
+      </div>
+    </div>
+  </div>
+  <!-- breadcam_area_end -->
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
+  <!-- contact section start -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="d-none d-sm-block mb-5 pb-4">
+        <p>
+          Welcome to Malkit's Sweets & Catering Northridge! We are passionate about bringing the vibrant flavors of India to your special events.
+          Our dedicated team is here to make your catering experience seamless and unforgettable. Whether you're planning a wedding, corporate event,
+          or private party, we have the expertise and culinary excellence to exceed your expectations. Ready to book your catering with us? Fill out the form below, 
+          and we'll get back to you as soon as possible. For immediate assistance, feel free to call us at <a class="num" href="tel:+18184071498">(818) 407-1498</a>.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h2 class="contact-title">Book a Catering with Us</h2>
+        </div>
+        <div class="col-lg-8">
+          <form class="form-contact contact_form" id="contactForm" novalidate="novalidate">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject" required />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Type your wishes of dishes in catering" required></textarea>
+                </div>
+              </div>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-group mt-3">
+              <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-home"></i></span>
+            <div class="media-body">
+              <h3>18110 Parthenia St, Northridge</h3>
+              <p>California 91324</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+            <div class="media-body">
+              <h3><a href="tel:+18184071498">(818) 407-1498</a></h3>
+              <p>Mon to Fri 9am to 8pm</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-email"></i></span>
+            <div class="media-body">
+              <h3><a href="mailto:malkitsweetsandcatering@gmail.com">malkitsweetsandcatering@gmail.com</a></h3>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+
+  <!-- footer-start -->
+  <footer class="footer_area footer-bg zigzag_bg_1">
+    <div class="footer-top">
       <div class="container">
-        <div class="d-none d-sm-block mb-5 pb-4">
-            <p>
-                Welcome to Malkit's Sweets & Catering Northridge! We are passionate about bringing the vibrant flavors of India to your special events.
-                Our dedicated team is here to make your catering experience seamless and unforgettable. Whether you're planning a wedding, corporate event,
-                or private party, we have the expertise and culinary excellence to exceed your expectations. Ready to book your catering with us? Fill out the form below, 
-                and we'll get back to you as soon as possible. For immediate assistance, feel free to call us at <a class="num" href="tel:+18184071498">(818) 407-1498</a>.
-            </p>
-    
-        </div>
-
         <div class="row">
-          <div class="col-12">
-            <h2 class="contact-title">Book a Catering with Us</h2>
-          </div>
-          <div class="col-lg-8">
-            <form
-              class="form-contact contact_form"
-              
-              id="contactForm"
-              novalidate="novalidate"
-            >
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input
-                      class="form-control valid"
-                      name="name"
-                      id="name"
-                      type="text"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter your name'"
-                      placeholder="Enter your name"
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input
-                      class="form-control valid"
-                      name="email"
-                      id="email"
-                      type="email"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter email address'"
-                      placeholder="Email"
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <input
-                      class="form-control"
-                      name="subject"
-                      id="subject"
-                      type="text"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter Subject'"
-                      placeholder="Enter Subject"
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea
-                      class="form-control w-100"
-                      name="message"
-                      id="message"
-                      cols="30"
-                      rows="9"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter Message'"
-                      placeholder="Type your wishes of dishes in catering"
-                    ></textarea>
-                  </div>
-                </div>
-              </div>
-              <input type="hidden" name="_captcha" value="false">
-              <div class="form-group mt-3">
-                <button
-                  type="submit"
-                  class="button button-contactForm boxed-btn"
-                >
-                  Send
-                </button>
-              </div>
-            </form>
-          </div>
-          <div class="col-lg-3 offset-lg-1">
-            <div class="media contact-info">
-              <span class="contact-info__icon"><i class="ti-home"></i></span>
-              <div class="media-body">
-                <h3>18110 Parthenia St, Northridge</h3>
-                <p>California 91324</p>
-              </div>
+          <div class="col-xl-2 col-md-6 col-lg-2">
+            <div class="footer_widget">
+              <h3 class="heading">Top Products</h3>
+              <ul>
+                <li><a href="#">Catering Services</a></li>
+                <li><a href="#">Event Planning</a></li>
+                <li><a href="#">Custom Menus</a></li>
+                <li><a href="#">Delivery Services</a></li>
+              </ul>
             </div>
-            <div class="media contact-info">
-              <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-              <div class="media-body">
-                <h3><a href="tel:+18184071498">(818) 407-1498</a></h3>
-                <p>Mon to Fri 9am to 8pm</p>
-              </div>
+          </div>
+          <div class="col-xl-2 col-md-6 col-lg-2">
+            <div class="footer_widget">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
             </div>
-            <div class="media contact-info">
-                <span class="contact-info__icon"><i class="ti-email"></i></span>
-                <div class="media-body">
-                    <h3><a href="mailto:malkitsweetsandcatering@gmail.com">malkitsweetsandcatering@gmail.com</a></h3>
-                    <p>Send us your query anytime!</p>
-                </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-lg-4">
+            <div class="footer_widget">
+              <h3 class="heading">Contact Us</h3>
+              <p class="footer-content">
+                  India Sweets & Spices Northridge<br />
+                  18110 Parthenia St, Northridge, California 91324<br />
+                  Phone: <a href="tel:+18184071498">(818) 407-1498</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ================ contact section end ================= -->
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-7 col-md-12 col-lg-8">
+            <div class="copyright">
+              <p class="footer-text">
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | Malkit's Sweets & Catering Northridge
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-5 col-md-12 col-lg-4">
+            <div class="social_links">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/indiasweetsandspices/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.yelp.com/biz/india-sweets-and-spices-northridge-2"><i class="fa fa-yelp"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/issnorthridge/"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-end -->
 
-    <footer class="footer_area footer-bg zigzag_bg_1">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="heading">Top Products</h3>
-                <ul>
-                  <li><a href="#">Catering Services</a></li>
-                  <li><a href="#">Event Planning</a></li>
-                  <li><a href="#">Custom Menus</a></li>
-                  <li><a href="#">Delivery Services</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="heading">Quick Links</h3>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Menu</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-12 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="heading">Contact Us</h3>
-                <p class="footer-content">
-                    India Sweets & Spices Northridge<br />
-                    18110 Parthenia St, Northridge, California 91324<br />
-                    Phone: <a href="tel:+18184071498">(818) 407-1498</a>
-                </p>
-              </div>
-            </div>
-          
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-7 col-md-12 col-lg-8">
-              <div class="copyright">
-                <p class="footer-text">
-                  &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  All rights reserved | Malkit's Sweets & Catering Northridge
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-5 col-md-12 col-lg-4">
-              <div class="social_links">
-                <ul>
-                  <li>
-                    <a href="https://www.facebook.com/indiasweetsandspices/"
-                      ><i class="fa fa-facebook"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.yelp.com/biz/india-sweets-and-spices-northridge-2"
-                      ><i class="fa fa-yelp"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/issnorthridge/"
-                      ><i class="fa fa-instagram"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer-end -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the default form submission
 
-    <script>
-      document.getElementById('contactForm').addEventListener('submit', function(event) {
-          event.preventDefault(); // Prevent the default form submission
-          
-          // Clear input fields
-          document.getElementById('name').value = '';
-          document.getElementById('email').value = '';
-          document.getElementById('subject').value = '';
-          document.getElementById('message').value = '';
-      });
+      // Validate form fields
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (name === "" || email === "" || subject === "" || message === "") {
+        alert("Please fill out all fields.");
+        return;
+      }
+
+      // Send email if all fields are filled
+      emailjs.sendForm('service_p63zgac', 'template_1varwco', this)
+        .then(() => {
+          alert("Thank you! We will reach back to you soon.");
+          document.getElementById('contactForm').reset(); // Clear form fields after successful submission
+        }, (error) => {
+          console.log('FAILED...', error);
+        });
+    });
   </script>
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-
-
-    <!--contact js-->
-    <!-- <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script> -->
-
-    <script src="js/main.js"></script>
-  </body>
+  <!-- JS here -->
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/ajax-form.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/scrollIt.js"></script>
+  <script src="js/jquery.scrollUp.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/nice-select.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

@@ -1,103 +1,106 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Malkit's Sweets and Catering | Gallery</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      .tabs {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Malkit's Sweets and Catering | Gallery</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      .tabs button {
-        background-color: #f1f1f1;
-        border: none;
-        outline: none;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        border-radius: 20px;
-        margin: 0 5px;
-      }
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
 
-      .tabs button.active {
-        background-color: #007bff;
-        color: white;
-      }
+    .tabs button {
+      background-color: #f1f1f1;
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 20px;
+      margin: 0 5px;
+    }
 
-      .gallery_section {
-            display: none;
-        }
+    .tabs button.active {
+      background-color: #007bff;
+      color: white;
+    }
 
-        .gallery_section.active {
-            display: block;
-        }
+    .gallery_section {
+      display: none;
+    }
 
-        .single_gallery {
-            position: relative;
-            overflow: hidden;
-            background-color: #f1f1f1;
-            padding-bottom: 100%; /* 1:1 aspect ratio */
-            margin-bottom: 20px;
-        }
+    .gallery_section.active {
+      display: block;
+    }
 
-        .single_gallery img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            transition: transform 0.3s;
-        }
+    .single_gallery {
+      position: relative;
+      overflow: hidden;
+      background-color: #f1f1f1;
+      padding-bottom: 100%;
+      /* 1:1 aspect ratio */
+      margin-bottom: 20px;
+    }
 
-        .single_gallery img:hover {
-            transform: scale(1.1);
-        }
+    .single_gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: transform 0.3s;
+    }
 
-        .tabs {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
+    .single_gallery img:hover {
+      transform: scale(1.1);
+    }
 
-        .tabs button {
-            background-color: #f1f1f1;
-            border: none;
-            outline: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            border-radius: 20px;
-            margin: 0 5px;
-        }
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
 
-        .tabs button.active {
-            background-color: #007bff;
-            color: white;
-        }
-    </style>
-    </style>
-  </head>
+    .tabs button {
+      background-color: #f1f1f1;
+      color: black;
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 20px;
+      margin: 0 5px;
+    }
 
-  <body>
-    <!--[if lte IE 9]>
+    .tabs button.active {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
+  </style>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
@@ -105,456 +108,595 @@
       </p>
     <![endif]-->
 
-    <!-- header-start -->
-    <header>
-      <div class="header-area">
-        <div id="sticky-header" class="main-header-area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-10 col-lg-10">
-                <div class="main-menu d-none d-lg-block">
-                  <nav>
-                    <ul class="mein_menu_list" id="navigation">
-                      <div class="logo-img d-none d-lg-block">
-                        <a href="index.html">
-                          <img
-                            src="img/logo-Nav.png"
-                            style="height: 100px; width: 100px"
-                            alt=""
-                          />
-                        </a>
-                      </div>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="service.html">Services</a></li>
-                      <li><a href="menu.html">Menu</a></li>
-                      <li><a href="gallery.html">Gallery</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </nav>
-                </div>
+  <!-- header-start -->
+  <header>
+    <div class="header-area">
+      <div id="sticky-header" class="main-header-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-10 col-lg-10">
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul class="mein_menu_list" id="navigation">
+                    <div class="logo-img d-none d-lg-block">
+                      <a href="index.html">
+                        <img src="img/logo-Nav.png" style="height: 100px; width: 100px" alt="" />
+                      </a>
+                    </div>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
               </div>
-              <div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                <div class="custom_order">
-                  <a href="contact.html" class="boxed_btn_white">Book Now!</a>
-                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+              <div class="custom_order">
+                <a href="contact.html" class="boxed_btn_white">Book Now!</a>
               </div>
-              <div class="col-12">
-                <div class="mobile_menu d-block d-lg-none"></div>
-              </div>
-              <div class="logo-img-small d-sm-block d-md-block d-lg-none">
-                <a href="index.html">
-                  <img src="img/logo.png" alt="" />
-                </a>
-              </div>
+            </div>
+            <div class="col-12">
+              <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+            <div class="logo-img-small d-sm-block d-md-block d-lg-none">
+              <a href="index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <!-- header-end -->
+    </div>
+  </header>
+  <!-- header-end -->
 
-    <!-- breadcam_area_start -->
-    <div class="breadcam_area breadcam_bg_2 zigzag_bg_2">
-      <div class="breadcam_inner">
-        <div class="breadcam_text">
-          <h3>Gallery</h3>
+  <!-- breadcam_area_start -->
+  <div class="breadcam_area breadcam_bg_2 zigzag_bg_2">
+    <div class="breadcam_inner">
+      <div class="breadcam_text">
+        <h3>Gallery</h3>
+      </div>
+    </div>
+  </div>
+  <!-- breadcam_area_end -->
+
+  <!-- carousel_area_start -->
+  <div class="gallery_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section_title mb-70">
+            <p>
+              Welcome to the Malkit's Sweets and Catering Gallery! Dive into a
+              visual feast showcasing the vibrant and delectable creations of
+              our expert chefs. From elaborate wedding banquets and elegant
+              corporate events to intimate private gatherings, our gallery
+              highlights the artistry and passion we pour into every dish.
+              Explore our beautifully presented traditional Indian cuisine,
+              including savory samosas, rich biryanis, and an array of
+              irresistible sweets like gulab jamuns and jalebis. Let our
+              images inspire you and give you a glimpse of what you can expect
+              when you choose Malkit's Sweets and Catering for your next
+              event.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="img/gallery/s3.jpeg" alt="Gallery Image 1" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/2.jpeg" alt="Gallery Image 2" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/3.jpeg" alt="Gallery Image 3" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/s2.jpeg" alt="Gallery Image 4" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/5.jpeg" alt="Gallery Image 5" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/6.jpeg" alt="Gallery Image 6" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/7.jpeg" alt="Gallery Image 7" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/8.jpeg" alt="Gallery Image 8" />
+        </div>
+        <div class="item">
+          <img src="img/gallery/9.jpeg" alt="Gallery Image 9" />
         </div>
       </div>
     </div>
-    <!-- breadcam_area_end -->
+  </div>
+  <!-- carousel_area_end -->
 
-    <!-- carousel_area_start -->
-    <div class="gallery_area">
+  <!-- gallery_area_start -->
+  <div class="gallery_area">
+    <div class="container">
+      <div class="tabs">
+        <button class="tab-button active" data-tab="tab-1">All Events</button>
+        <button class="tab-button" data-tab="tab-2">Wedding</button>
+        <button class="tab-button" data-tab="tab-3">Live Station</button>
+        <button class="tab-button" data-tab="tab-4">Sweets</button>
+      </div>
+      <div class="gallery_container">
+        <div id="tab-1" class="gallery_section active">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/15.jpeg" class="popup-image"><img src="img/gallery/15.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/14.jpeg" class="popup-image"><img src="img/gallery/14.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/12.jpeg" class="popup-image"><img src="img/gallery/12.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/10.jpeg" class="popup-image"><img src="img/gallery/10.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/11.jpeg" class="popup-image"><img src="img/gallery/11.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/16.jpeg" class="popup-image"><img src="img/gallery/16.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/17.jpeg" class="popup-image"><img src="img/gallery/17.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/18.jpeg" class="popup-image"><img src="img/gallery/18.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/19.jpeg" class="popup-image"><img src="img/gallery/19.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/20.jpeg" class="popup-image"><img src="img/gallery/20.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/jalebi.jpg" class="popup-image"><img src="img/gallery/jalebi.jpg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/sweets.jpg" class="popup-image"><img src="img/gallery/sweets.jpg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/Kalakand.jpg" class="popup-image"><img src="img/gallery/Kalakand.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/patisa.jpg" class="popup-image"><img src="img/gallery/patisa.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/Rasgulla.jpg" class="popup-image"><img src="img/gallery/Rasgulla.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/Rasmalai.jpg" class="popup-image"><img src="img/gallery/Rasmalai.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/pistaBurfi.jpg" class="popup-image"><img src="img/gallery/pistaBurfi.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/s1.jpeg" class="popup-image"><img src="img/gallery/s1.jpeg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/laddoo1.jpeg" class="popup-image"><img src="img/gallery/laddoo1.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/laddoo2.jpeg" class="popup-image"><img src="img/gallery/laddoo2.jpeg"
+                    alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/s2.jpeg" class="popup-image"><img src="img/gallery/s2.jpeg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/s3.jpeg" class="popup-image"><img src="img/gallery/s3.jpeg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/peda.jpeg" class="popup-image"><img src="img/gallery/peda.jpeg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/ChamCham.jpg" class="popup-image"><img src="img/gallery/ChamCham.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/kajuKatli.jpg" class="popup-image"><img src="img/gallery/kajuKatli.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+              <div class="single_gallery">
+                <a href="img/gallery/khoyaBarfiB.jpg" class="popup-image"><img src="img/gallery/khoyaBarfiB.jpg" alt="Gallery Image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other tabs -->
+      </div>
+      <div id="tab-2" class="gallery_section">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/10.jpeg" class="popup-image"><img src="img/gallery/10.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/w1.jpeg" class="popup-image"><img src="img/gallery/w1.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/w2.jpeg" class="popup-image"><img src="img/gallery/w2.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/w3.jpeg" class="popup-image"><img src="img/gallery/w3.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/w4.jpeg" class="popup-image"><img src="img/gallery/w4.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/w5.jpeg" class="popup-image"><img src="img/gallery/w5.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/w6.jpeg" class="popup-image"><img src="img/gallery/w6.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <!-- Add more images for Wedding -->
+        </div>
+      </div>
+      <div id="tab-3" class="gallery_section">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/11.jpeg" class="popup-image"><img src="img/gallery/11.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/16.jpeg" class="popup-image"><img src="img/gallery/16.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/20.jpeg" class="popup-image"><img src="img/gallery/20.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/ls3.jpeg" class="popup-image"><img src="img/gallery/ls3.jpeg"
+                  alt="Gallery Image"></a>
+            </div>
+          </div>
+          <!-- Add more images for Corporate -->
+        </div>
+      </div>
+      <div id="tab-4" class="gallery_section">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/sweets.jpg" class="popup-image"><img src="img/gallery/sweets.jpg"
+                  alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/jalebi.jpg" class="popup-image"><img src="img/gallery/jalebi.jpg"
+                  alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/Kalakand.jpg" class="popup-image"><img src="img/gallery/Kalakand.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/patisa.jpg" class="popup-image"><img src="img/gallery/patisa.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/Rasgulla.jpg" class="popup-image"><img src="img/gallery/Rasgulla.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/Rasmalai.jpg" class="popup-image"><img src="img/gallery/Rasmalai.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/pistaBurfi.jpg" class="popup-image"><img src="img/gallery/pistaBurfi.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/s1.jpeg" class="popup-image"><img src="img/gallery/s1.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/laddoo1.jpeg" class="popup-image"><img src="img/gallery/laddoo1.jpeg"
+                  alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/laddoo2.jpeg" class="popup-image"><img src="img/gallery/laddoo2.jpeg"
+                  alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/s2.jpeg" class="popup-image"><img src="img/gallery/s2.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/s3.jpeg" class="popup-image"><img src="img/gallery/s3.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/peda.jpeg" class="popup-image"><img src="img/gallery/peda.jpeg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/ChamCham.jpg" class="popup-image"><img src="img/gallery/ChamCham.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/kajuKatli.jpg" class="popup-image"><img src="img/gallery/kajuKatli.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
+            <div class="single_gallery">
+              <a href="img/gallery/khoyaBarfiB.jpg" class="popup-image"><img src="img/gallery/khoyaBarfiB.jpg" alt="Gallery Image"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- gallery_area_end -->
+
+  <footer class="footer_area footer-bg zigzag_bg_1">
+    <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-xl-12">
-            <div class="section_title mb-70">
-              <p>
-                Welcome to the Malkit's Sweets and Catering Gallery! Dive into a
-                visual feast showcasing the vibrant and delectable creations of
-                our expert chefs. From elaborate wedding banquets and elegant
-                corporate events to intimate private gatherings, our gallery
-                highlights the artistry and passion we pour into every dish.
-                Explore our beautifully presented traditional Indian cuisine,
-                including savory samosas, rich biryanis, and an array of
-                irresistible sweets like gulab jamuns and jalebis. Let our
-                images inspire you and give you a glimpse of what you can expect
-                when you choose Malkit's Sweets and Catering for your next
-                event.
+          <div class="col-xl-2 col-md-6 col-lg-2">
+            <div class="footer_widget">
+              <h3 class="heading">Top Products</h3>
+              <ul>
+                <li><a href="#">Catering Services</a></li>
+                <li><a href="#">Event Planning</a></li>
+                <li><a href="#">Custom Menus</a></li>
+                <li><a href="#">Delivery Services</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-6 col-lg-2">
+            <div class="footer_widget">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-lg-4">
+            <div class="footer_widget">
+              <h3 class="heading">Contact Us</h3>
+              <p class="footer-content">
+                India Sweets & Spices Northridge<br />
+                18110 Parthenia St, Northridge, California 91324<br />
+                Phone: <a href="tel:+18184071498">(818) 407-1498</a>
+              </p>
+
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-lg-4">
+            <div class="footer_widget">
+              <h3 class="heading">Find Us</h3>
+              <div id="map" style="height: 200px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-7 col-md-12 col-lg-8">
+            <div class="copyright">
+              <p class="footer-text">
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | Malkit's Sweets & Catering Northridge
               </p>
             </div>
           </div>
-        </div>
-        <div class="owl-carousel owl-theme">
-          <div class="item">
-            <img src="img/gallery/s3.jpeg" alt="Gallery Image 1" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/2.jpeg" alt="Gallery Image 2" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/3.jpeg" alt="Gallery Image 3" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/s2.jpeg" alt="Gallery Image 4" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/5.jpeg" alt="Gallery Image 5" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/6.jpeg" alt="Gallery Image 6" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/7.jpeg" alt="Gallery Image 7" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/8.jpeg" alt="Gallery Image 8" />
-          </div>
-          <div class="item">
-            <img src="img/gallery/9.jpeg" alt="Gallery Image 9" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- carousel_area_end -->
-
-    <!-- gallery_area_start -->
-    <div class="gallery_area">
-      <div class="container">
-        <div class="tabs">
-          <button class="tab-button active" data-tab="tab-1">All Events</button>
-          <button class="tab-button" data-tab="tab-2">Wedding</button>
-          <button class="tab-button" data-tab="tab-3">Live Station</button>
-          <button class="tab-button" data-tab="tab-4">Sweets</button>
-        </div>
-        <div class="gallery_container">
-            <div id="tab-1" class="gallery_section active">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/15.jpeg" class="popup-image"><img src="img/gallery/15.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/14.jpeg" class="popup-image"><img src="img/gallery/14.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/12.jpeg" class="popup-image"><img src="img/gallery/12.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/10.jpeg" class="popup-image"><img src="img/gallery/10.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/11.jpeg" class="popup-image"><img src="img/gallery/11.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/s1.jpeg" class="popup-image"><img src="img/gallery/s1.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/16.jpeg" class="popup-image"><img src="img/gallery/16.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/17.jpeg" class="popup-image"><img src="img/gallery/17.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/18.jpeg" class="popup-image"><img src="img/gallery/18.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/19.jpeg" class="popup-image"><img src="img/gallery/19.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/20.jpeg" class="popup-image"><img src="img/gallery/20.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/s2.jpeg" class="popup-image"><img src="img/gallery/s2.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                        <div class="single_gallery">
-                            <a href="img/gallery/s3.jpeg" class="popup-image"><img src="img/gallery/s3.jpeg" alt="Gallery Image"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Repeat for other tabs -->
-        </div>
-          <div id="tab-2" class="gallery_section">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/10.jpeg" class="popup-image"><img src="img/gallery/10.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/w1.jpeg" class="popup-image"><img src="img/gallery/w1.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/w2.jpeg" class="popup-image"><img src="img/gallery/w2.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/w3.jpeg" class="popup-image"><img src="img/gallery/w3.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/w4.jpeg" class="popup-image"><img src="img/gallery/w4.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/w5.jpeg" class="popup-image"><img src="img/gallery/w5.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/w6.jpeg" class="popup-image"><img src="img/gallery/w6.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-              <!-- Add more images for Wedding -->
-            </div>
-          </div>
-          <div id="tab-3" class="gallery_section">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/11.jpeg" class="popup-image"><img src="img/gallery/11.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/16.jpeg" class="popup-image"><img src="img/gallery/16.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/20.jpeg" class="popup-image"><img src="img/gallery/20.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/ls3.jpeg" class="popup-image"><img src="img/gallery/ls3.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-              <!-- Add more images for Corporate -->
-            </div>
-          </div>
-          <div id="tab-4" class="gallery_section">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/s1.jpeg" class="popup-image"><img src="img/gallery/s1.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/s2.jpeg" class="popup-image"><img src="img/gallery/s2.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-item">
-                    <div class="single_gallery">
-                        <a href="img/gallery/s3.jpeg" class="popup-image"><img src="img/gallery/s3.jpeg" alt="Gallery Image"></a>
-                    </div>
-                </div>
-              <!-- Add more images for Cocktail -->
+          <div class="col-xl-5 col-md-12 col-lg-4">
+            <div class="social_links">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/indiasweetsandspices/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.yelp.com/biz/india-sweets-and-spices-northridge-2"><i class="fa fa-yelp"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/issnorthridge/"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- gallery_area_end -->
+  </footer>
+  <!-- footer-end -->
 
-    <footer class="footer_area footer-bg zigzag_bg_1">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="heading">Top Products</h3>
-                <ul>
-                  <li><a href="#">Catering Services</a></li>
-                  <li><a href="#">Event Planning</a></li>
-                  <li><a href="#">Custom Menus</a></li>
-                  <li><a href="#">Delivery Services</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="heading">Quick Links</h3>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Menu</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-12 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="heading">Contact Us</h3>
-                <p class="footer-content">
-                  India Sweets & Spices Northridge<br />
-                  18110 Parthenia St, Northridge, California 91324<br />
-                  Phone: <a href="tel:+18184071498">(818) 407-1498</a>
-                </p>
-                
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-12 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="heading">Find Us</h3>
-                <div id="map" style="height: 200px"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-7 col-md-12 col-lg-8">
-              <div class="copyright">
-                <p class="footer-text">
-                  &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  All rights reserved | Malkit's Sweets & Catering Northridge
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-5 col-md-12 col-lg-4">
-              <div class="social_links">
-                <ul>
-                  <li>
-                    <a href="https://www.facebook.com/indiasweetsandspices/"
-                      ><i class="fa fa-facebook"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.yelp.com/biz/india-sweets-and-spices-northridge-2"
-                      ><i class="fa fa-yelp"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/issnorthridge/"
-                      ><i class="fa fa-instagram"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer-end -->
+  <!-- JS here -->
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/ajax-form.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/scrollIt.js"></script>
+  <script src="js/jquery.scrollUp.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/nice-select.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tabs = document.querySelectorAll(".tab-button");
+      const sections = document.querySelectorAll(".gallery_section");
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const tabs = document.querySelectorAll(".tab-button");
-        const sections = document.querySelectorAll(".gallery_section");
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", function () {
+          // Remove active class from all tabs and sections
+          tabs.forEach((t) => t.classList.remove("active"));
+          sections.forEach((s) => s.classList.remove("active"));
 
-        tabs.forEach((tab) => {
-          tab.addEventListener("click", function () {
-            // Remove active class from all tabs and sections
-            tabs.forEach((t) => t.classList.remove("active"));
-            sections.forEach((s) => s.classList.remove("active"));
-
-            // Add active class to the clicked tab and corresponding section
-            tab.classList.add("active");
-            document.getElementById(tab.dataset.tab).classList.add("active");
-          });
+          // Add active class to the clicked tab and corresponding section
+          tab.classList.add("active");
+          document.getElementById(tab.dataset.tab).classList.add("active");
         });
       });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          loop: true,
-          margin: 10,
-          nav: true,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          responsive: {
-            0: {
-              items: 1,
-            },
-            600: {
-              items: 2,
-            },
-            1000: {
-              items: 3,
-            },
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
           },
-        });
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
       });
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw5H9If5CG-EnYcWuS-K2XnhBbA0sH1tY"></script>
-    <script>
-      function initMap() {
-        var location = { lat: 34.228322, lng: -118.526778 };
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 15,
-          center: location,
-        });
-        var marker = new google.maps.Marker({
-          position: location,
-          map: map,
-        });
-      }
-      google.maps.event.addDomListener(window, "load", initMap);
-    </script>
+    });
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw5H9If5CG-EnYcWuS-K2XnhBbA0sH1tY"></script>
+  <script>
+    function initMap() {
+      var location = { lat: 34.228322, lng: -118.526778 };
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: location,
+      });
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+    }
+    google.maps.event.addDomListener(window, "load", initMap);
+  </script>
 
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery.form.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
