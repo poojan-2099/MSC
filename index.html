@@ -1,261 +1,229 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Malkit's Sweets & Catering</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Malkit's Sweets & Catering</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-  </head>
-  <style>
-    .slider_contant h3 {
-      font-size: 2.5rem;
-      color: #fff;
-      font-weight: bold;
-      margin-top: 20px;
-      display: inline-block;
-      position: relative;
-      white-space: nowrap;
-    }
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    .falling-text span {
-      display: inline-block;
-      animation: fall 0.5s ease forwards;
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+<style>
+  .slider_contant h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .falling-text span {
+    display: inline-block;
+    animation: fall 0.5s ease forwards;
+    opacity: 0;
+    position: relative;
+  }
+
+  @keyframes fall {
+    0% {
       opacity: 0;
-      position: relative;
+      transform: translateY(-50px);
     }
 
-    @keyframes fall {
-      0% {
-        opacity: 0;
-        transform: translateY(-50px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
     }
+  }
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .slider_contant h3 {
       white-space: normal;
       word-break: break-word;
       font-size: 1.8rem;
     }
   }
-  </style>
+</style>
 
-  <body>
-    <!-- header-start -->
-    <header>
-      <div class="header-area">
-        <div id="sticky-header" class="main-header-area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-10 col-lg-10">
-                <div class="main-menu d-none d-lg-block">
-                  <nav>
-                    <ul class="mein_menu_list" id="navigation">
-                      <div class="logo-img d-none d-lg-block">
-                        <a href="index.html">
-                          <img
-                            src="img/logo-Nav.png"
-                            style="height: 100px; width: 100px"
-                            alt=""
-                          />
-                        </a>
-                      </div>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="service.html">Services</a></li>
-                      <li><a href="menu.html">menu</a></li>
-                      <li><a href="gallery.html">gallery</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                <div class="custom_order">
-                  <a href="contact.html" class="boxed_btn_white">Book Now!</a>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="mobile_menu d-block d-lg-none"></div>
-              </div>
-              <div class="logo-img-small d-sm-block d-md-block d-lg-none">
-                <a href="index.html">
-                  <img src="img/logo.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- header-end -->
- 
-    <!-- slider_area-start -->
-    <div class="slider_area zigzag_bg_2">
-      <div class="slider_sctive owl-carousel">
-        <div class="single_slider slider_img_1">
-          <div class="single_slider-iner">
-            <div class="slider_contant text-center">
-              <h3 class="falling-text">Welcome to Malkit Sweets & Catering</h3>
-            </div>
-          </div>
-        </div>
-        <div class="single_slider slider_img_2">
-          <div class="single_slider-iner">
-            <div class="slider_contant text-center">
-              <h3 class="falling-text">Welcome to Malkit Sweets & Catering</h3>
-            </div>     
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- slider_area-end -->
-
-    <!-- service_area-start -->
-    <div class="service_area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="section_title mb-60">
-              <p>
-                Welcome to Malkit Sweets and Catering Services, your premier
-                destination for authentic Indian cuisine on the West Coast.
-                With
-                a passion for culinary excellence and a dedication to
-                quality,
-                our experienced master chefs bring the rich and diverse
-                flavors
-                of India to your table. From the spicy delights of Punjab to
-                the
-                aromatic dishes of South India, we offer a wide array of
-                mouthwatering options that cater to all tastes and preferences. Our sweets are made with the finest ingredients,
-                ensuring a taste that transports you straight to the heart of
-                India. Our commitment to using fresh
-                ingredients and traditional cooking techniques guarantees
-                that
-                every sweet is a celebration of Indian heritage and
-                hospitality. Trust us to make your next event truly special
-                with our exquisite menu, delectable sweets, and exceptional
-                service.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="single_service animate__animated animate__fadeInLeft animate__delay-0.5s">
-              <div class="img-container animate__animated animate__zoomIn animate__delay-1s">
-                <img src="img/about/weddingCatering.jpg" alt="Wedding Catering" style="width: 100%; object-fit: cover; border-radius: 10px; height: 300px;">
-              </div>
-              <h4 class="animate__animated animate__bounceIn animate__delay-1.5s">Wedding Catering</h4>
-              <p class="animate__animated animate__lightSpeedInRight animate__delay-2s">
-                Elevate your wedding with our traditional Indian dishes, creating unforgettable culinary experiences.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_service animate__animated animate__fadeInLeft animate__delay-1s">
-              <div class="img-container animate__animated animate__zoomIn animate__delay-1.5s">
-                <img src="img/about/partyCatering.jpg" alt="Party Catering" style="width: 100%; object-fit: cover; border-radius: 10px; height: 300px;">
-              </div>
-              <h4 class="animate__animated animate__bounceIn animate__delay-2s">Party Catering</h4>
-              <p class="animate__animated animate__lightSpeedInRight animate__delay-2.5s">
-                Delight your guests with customized party catering, offering a variety of Indian delicacies.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_service animate__animated animate__fadeInLeft animate__delay-1.5s">
-              <div class="img-container animate__animated animate__zoomIn animate__delay-2s">
-                <img src="img/about/cateringOnDemand.jpg" alt="Catering On Demand" style="width: 100%; object-fit: cover; border-radius: 10px; height: 300px;">
-              </div>
-              <h4 class="animate__animated animate__bounceIn animate__delay-2.5s">Catering On Demand</h4>
-              <p class="animate__animated animate__lightSpeedInRight animate__delay-3s">
-                Enjoy delicious Indian cuisine with our flexible, on-demand catering services for any occasion.
-              </p>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    <!-- service_area-end -->
-
-    <!-- video_area_start -->
-    <div class="video_area video_bg zigzag_bg_1 zigzag_bg_2">
-      <div class="video_area_inner">
+<body>
+  <!-- header-start -->
+  <header>
+    <div class="header-area">
+      <div id="sticky-header" class="main-header-area">
         <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="video_text text-center">
-                <div class="info">
-                  <div class="info_inner">
-                    <h4>Watch Video</h4>
-                    <p>You will love our execution</p>
-                  </div>
-                  <div class="icon_video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HWnXId_Zg4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
+          <div class="row align-items-center">
+            <div class="col-xl-10 col-lg-10">
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul class="mein_menu_list" id="navigation">
+                    <div class="logo-img d-none d-lg-block">
+                      <a href="index.html">
+                        <img src="img/logo-Nav.png" style="height: 100px; width: 100px" alt="" />
+                      </a>
+                    </div>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="menu.html">menu</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
               </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+              <div class="custom_order">
+                <a href="contact.html" class="boxed_btn_white">Book Now!</a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+            <div class="logo-img-small d-sm-block d-md-block d-lg-none">
+              <a href="index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- video_area_end -->
+  </header>
+  <!-- header-end -->
 
-     <!-- Meet Our Chef Section -->
-  <div class="chef_intro_area banner-3">
+  <!-- slider_area-start -->
+  <div class="slider_area zigzag_bg_2">
+    <div class="slider_sctive owl-carousel">
+      <div class="single_slider slider_img_1">
+        <div class="single_slider-iner">
+          <div class="slider_contant text-center">
+            <h3 class="falling-text">Welcome to Malkit Sweets & Catering</h3>
+          </div>
+        </div>
+      </div>
+      <div class="single_slider slider_img_2">
+        <div class="single_slider-iner">
+          <div class="slider_contant text-center">
+            <h3 class="falling-text">Welcome to Malkit Sweets & Catering</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slider_area-end -->
+
+  <!-- service_area-start -->
+  <div class="service_area">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
-          <div class="section_title white mb-60">
-            <h3>Meet Our Chefs</h3>
+          <div class="section_title mb-60">
             <p>
-              Discover the expertise of Mr. Malkit, our Masterchef with over 30 years of experience in the culinary industry.
-              His unparalleled skills and deep knowledge of traditional Indian cuisine have made him a renowned figure in the catering world.
+              Welcome to Malkit Sweets and Catering Services, your premier
+              destination for authentic Indian cuisine on the West Coast.
+              With
+              a passion for culinary excellence and a dedication to
+              quality,
+              our experienced master chefs bring the rich and diverse
+              flavors
+              of India to your table. From the spicy delights of Punjab to
+              the
+              aromatic dishes of South India, we offer a wide array of
+              mouthwatering options that cater to all tastes and preferences. Our sweets are made with the finest
+              ingredients,
+              ensuring a taste that transports you straight to the heart of
+              India. Our commitment to using fresh
+              ingredients and traditional cooking techniques guarantees
+              that
+              every sweet is a celebration of Indian heritage and
+              hospitality. Trust us to make your next event truly special
+              with our exquisite menu, delectable sweets, and exceptional
+              service.
             </p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-6">
-          <div class="single_chef d-flex">
-              <h3>Mr. Malkit Sogy</h3>
-              <span>Masterchef</span>
-              <p>
-                With over 30 years of professional experience, Mr. Malkit is a master of culinary arts, known for his expertise in traditional Indian cuisine. His dedication to quality and innovation has earned him a reputation as one of the top chefs in the industry.
-              </p>
-              <div class="video_thumb">
-                <a href="https://www.instagram.com/garmagaramjalebi/reel/C4oJgqSPC7d/" target="_blank">
-                  <img src="img/about/chefa.jpg" alt="Cooking Video" />
-                </a>
+        <div class="col-xl-4 col-md-6">
+          <div class="single_service animate__animated animate__fadeInLeft animate__delay-0.5s">
+            <div class="img-container animate__animated animate__zoomIn animate__delay-1s">
+              <img src="img/about/weddingCatering.jpg" alt="Wedding Catering"
+                style="width: 100%; object-fit: cover; border-radius: 10px; height: 300px;">
+            </div>
+            <h4 class="animate__animated animate__bounceIn animate__delay-1.5s">Wedding Catering</h4>
+            <p class="animate__animated animate__lightSpeedInRight animate__delay-2s">
+              Elevate your wedding with our traditional Indian dishes, creating unforgettable culinary experiences.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="single_service animate__animated animate__fadeInLeft animate__delay-1s">
+            <div class="img-container animate__animated animate__zoomIn animate__delay-1.5s">
+              <img src="img/about/partyCatering.jpg" alt="Party Catering"
+                style="width: 100%; object-fit: cover; border-radius: 10px; height: 300px;">
+            </div>
+            <h4 class="animate__animated animate__bounceIn animate__delay-2s">Party Catering</h4>
+            <p class="animate__animated animate__lightSpeedInRight animate__delay-2.5s">
+              Delight your guests with customized party catering, offering a variety of Indian delicacies.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="single_service animate__animated animate__fadeInLeft animate__delay-1.5s">
+            <div class="img-container animate__animated animate__zoomIn animate__delay-2s">
+              <img src="img/about/cateringOnDemand.jpg" alt="Catering On Demand"
+                style="width: 100%; object-fit: cover; border-radius: 10px; height: 300px;">
+            </div>
+            <h4 class="animate__animated animate__bounceIn animate__delay-2.5s">Catering On Demand</h4>
+            <p class="animate__animated animate__lightSpeedInRight animate__delay-3s">
+              Enjoy delicious Indian cuisine with our flexible, on-demand catering services for any occasion.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- service_area-end -->
+
+  <!-- video_area_start -->
+  <div class="video_area video_bg zigzag_bg_1 zigzag_bg_2">
+    <div class="video_area_inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="video_text text-center">
+              <div class="info">
+                <div class="info_inner">
+                  <h4>Watch Video</h4>
+                  <p>You will love our execution</p>
+                </div>
+                <div class="icon_video">
+                  <iframe width="auto" height="315" src="./img/vid/live jalebi.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -264,155 +232,216 @@
     </div>
   </div>
 
-    <!-- footer-start -->
-    <footer class="footer_area footer-bg zigzag_bg_1">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="heading">Top Products</h3>
-                <ul>
-                  <li><a href="#">Catering Services</a></li>
-                  <li><a href="#">Event Planning</a></li>
-                  <li><a href="#">Custom Menus</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="heading">Quick Links</h3>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Menu</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-12 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="heading">Contact Us</h3>
-                <p class="footer-content">
-                  India Sweets & Spices Northridge<br />
-                  18110 Parthenia St, Northridge, California 91324<br />
-                  Phone: <a href="tel:+18184071498">(818) 407-1498</a>
-                </p>
+  <!-- video_area_end -->
 
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-12 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="heading">Find Us</h3>
-                <div id="map" style="height: 200px"></div>
-              </div>
+ <!-- Meet Our Chef Section -->
+<div class="chef_intro_area banner-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section_title white mb-60">
+          <h3>Meet Our Chefs</h3>
+          <p>
+            Discover the expertise of Mr. Malkit, our Masterchef with over 30 years of experience in the culinary
+            industry.
+            His unparalleled skills and deep knowledge of traditional Indian cuisine have made him a renowned figure
+            in the catering world.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Masterchef Card -->
+      <div class="col-xl-6">
+        <div class="single_chef d-flex">
+          <div class="chef_info">
+            <h3>Mr. Malkit Sogy</h3>
+            <span>Masterchef</span>
+            <p>
+              With over 30 years of professional experience, Mr. Malkit is a master of culinary arts, known for his
+              expertise in traditional Indian cuisine. His dedication to quality and innovation has earned him a
+              reputation as one of the top chefs in the industry.
+            </p>
+            <div class="video_thumb">
+              <a href="https://www.instagram.com/garmagaramjalebi/reel/C4oJgqSPC7d/" target="_blank">
+                <img src="img/about/chefa.jpg" alt="Cooking Video" />
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-7 col-md-12 col-lg-8">
-              <div class="copyright">
-                <p class="footer-text">
-                  &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  All rights reserved | Malkit's Sweets & Catering Northridge
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-5 col-md-12 col-lg-4">
-              <div class="social_links">
-                <ul>
-                  <li>
-                    <a href="https://www.facebook.com/indiasweetsandspices/"
-                      ><i class="fa fa-facebook"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.yelp.com/biz/india-sweets-and-spices-northridge-2"
-                      ><i class="fa fa-yelp"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/issnorthridge/"
-                      ><i class="fa fa-instagram"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
+      <!-- Chef Team Card -->
+      <div class="col-xl-6">
+        <div class="single_chef d-flex">
+          <div class="chef_info">
+            <h3>Our Chef Team</h3>
+            <span>Experienced Professionals</span>
+            <p>
+              Meet our dedicated team of chefs who work tirelessly to bring you the best of Indian cuisine. Each chef
+              brings their own unique skills and passion to the kitchen.
+              With a deep understanding of traditional Indian flavors and modern culinary techniques, our chefs create
+              unforgettable dining experiences that capture the essence of authentic Indian cooking.
+            </p>
+            <ul style=" margin: 15px; display:flex; justify-content: space-around;">
+              <li><a style="color: black" href="https://www.instagram.com/chef_raghav/" target="_blank">Sarbjit Sogy(Jalebi Guy)</a></li>
+              <li><a style="color: black" href="https://www.instagram.com/chef_aarti/" target="_blank">Chef Deep</a></li></ul>
+            </ul>
+            <div class="video_thumb">
+              <a href="https://www.instagram.com/garmagaramjalebi/" target="_blank">
+                <img src="img/about/chefTeam.jpeg" alt="Chef Team" />
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- footer-end -->
+    </div>
+  </div>
+</div>
 
-    <!-- JS here -->
-    <!-- Include jQuery and Owl Carousel JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const text = document.querySelector('.falling-text');
-        const textContent = text.textContent;
-        text.innerHTML = '';
+  <!-- footer-start -->
+  <footer class="footer_area footer-bg zigzag_bg_1">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2 col-md-6 col-lg-2">
+            <div class="footer_widget">
+              <h3 class="heading">Top Products</h3>
+              <ul>
+                <li><a href="#">Catering Services</a></li>
+                <li><a href="#">Event Planning</a></li>
+                <li><a href="#">Custom Menus</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-6 col-lg-2">
+            <div class="footer_widget">
+              <h3 class="heading">Quick Links</h3>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-lg-4">
+            <div class="footer_widget">
+              <h3 class="heading">Contact Us</h3>
+              <p class="footer-content">
+                India Sweets & Spices Northridge<br />
+                18110 Parthenia St, Northridge, California 91324<br />
+                Phone: <a href="tel:+18184071498">(818) 407-1498</a>
+              </p>
 
-        textContent.split('').forEach((char, index) => {
-          const span = document.createElement('span');
-          span.textContent = char;
-          span.style.animationDelay = `${index * 0.1}s`;
-          text.appendChild(span);
-        });
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-lg-4">
+            <div class="footer_widget">
+              <h3 class="heading">Find Us</h3>
+              <div id="map" style="height: 200px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-7 col-md-12 col-lg-8">
+            <div class="copyright">
+              <p class="footer-text">
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | Malkit's Sweets & Catering Northridge
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-5 col-md-12 col-lg-4">
+            <div class="social_links">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/indiasweetsandspices/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.yelp.com/biz/india-sweets-and-spices-northridge-2"><i class="fa fa-yelp"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/issnorthridge/"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-end -->
+
+  <!-- JS here -->
+  <!-- Include jQuery and Owl Carousel JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const text = document.querySelector('.falling-text');
+      const textContent = text.textContent;
+      text.innerHTML = '';
+
+      textContent.split('').forEach((char, index) => {
+        const span = document.createElement('span');
+        span.textContent = char;
+        span.style.animationDelay = `${index * 0.1}s`;
+        text.appendChild(span);
       });
-    </script>
+    });
+  </script>
 
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/ajax-form.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/scrollIt.js"></script>
+  <script src="js/jquery.scrollUp.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/nice-select.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/plugins.js"></script>
 
-    <!-- Google Maps API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw5H9If5CG-EnYcWuS-K2XnhBbA0sH1tY"></script>
-    <script>
-      function initMap() {
-        var location = { lat: 34.228322, lng: -118.526778 };
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 15,
-          center: location,
-        });
-        var marker = new google.maps.Marker({
-          position: location,
-          map: map,
-        });
-      }
-      google.maps.event.addDomListener(window, "load", initMap);
-    </script>
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw5H9If5CG-EnYcWuS-K2XnhBbA0sH1tY"></script>
+  <script>
+    function initMap() {
+      var location = { lat: 34.228322, lng: -118.526778 };
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: location,
+      });
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+    }
+    google.maps.event.addDomListener(window, "load", initMap);
+  </script>
 
-    <!--contact js-->
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+  <!--contact js-->
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery.form.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/mail-script.js"></script>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
