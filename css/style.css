@@ -632,6 +632,47 @@ h3 {
   z-index: 99999;
   left: 0;
 }
+/*Header hover effect css*/
+.mein_menu_list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mein_menu_list li a {
+  display: inline-block;
+  padding: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  position: relative;
+}
+.mein_menu_list li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff5722; /* Accent color for underline */
+  transition: width 0.3s ease;
+}
+.mein_menu_list li:hover a {
+  color: #f0f0f0; /* Change text color on hover */
+}
+
+.mein_menu_list li:hover a::after {
+  width: 100%; /* Underline effect expands */
+}
+
+/* Optional: Adding a subtle shadow to the text on hover */
+.mein_menu_list li:hover a {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  height: 10px;
+}
 
 /* line 14, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_header.scss */
 .header-area .logo-img-small img {
@@ -695,7 +736,7 @@ h3 {
   text-transform: capitalize;
   font-weight: 400;
   display: inline-block;
-  padding: 35px 10px 35px 10px;
+  padding: 15px 10px 35px 10px;
   font-family: "Josefin Sans", sans-serif;
   position: relative;
 }
@@ -703,7 +744,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 56, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
+    padding: 15px 8px 35px 8px;
   }
 }
 
@@ -1837,16 +1878,22 @@ h3 {
 .breadcam_bg_1 {
   background-image: url(../img/banner/service_Banner.jpg);
 }
+.breadcam_bg_about{
+  background-image: url(../img/banner/aboutUS.jpg);
+}
 .breadcam_bg_2{
   background-image: url(../img/banner/common-2.jpeg);
 }
 .breadcam_bg_3{
   background-image: url(../img/order/menu.jpg);
 }
+.breadcam_bg_4{
+  background-image: url(../img/banner/contactUS.jpg);
+}
 
 /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */
 .breadcam_area {
-  height: 500px;
+  height: 685px;
   display: table;
   width: 100%;
   background-size: cover;
