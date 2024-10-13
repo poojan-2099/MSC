@@ -1125,7 +1125,7 @@ h3 {
 }
 
 /* line 40, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_contant h3 {
+.slider_area .single_slider .slider_contant h1 {
   font-size: 55px;
   font-weight: lighter;
   color: #ffffff;
@@ -1941,13 +1941,13 @@ h3 {
   /* line 19, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */
   .breadcam_area .breadcam_inner .breadcam_text {
     margin-top: 0;
-    padding: 0 20px;
+    padding: 0 8px;
     margin-inline: 36%;
   }
 }
 
 /* line 28, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */
-.breadcam_area .breadcam_inner .breadcam_text h3 {
+.breadcam_area .breadcam_inner .breadcam_text h1 {
   font-size: 55px;
   font-weight: lighter;
   color: #ffffff;
@@ -1956,7 +1956,7 @@ h3 {
 
 @media (max-width: 767px) {
   /* line 28, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_breadcam.scss */
-  .breadcam_area .breadcam_inner .breadcam_text h3 {
+  .breadcam_area .breadcam_inner .breadcam_text h1 {
     font-size: 30px;
     margin-bottom: 8px;
   }
